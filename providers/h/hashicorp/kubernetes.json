@@ -1,6 +1,86 @@
 {
   "versions": [
     {
+      "version": "2.26.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_2.26.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_darwin_amd64.zip",
+          "shasum": "8b1c8411994fb3e9e52ae785b697d1c15d343f348d09b0c3ba0bc49f9c3678a1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kubernetes_2.26.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_darwin_arm64.zip",
+          "shasum": "f94c9fe622b80345289aad832340ef4a4e43aefd3a1ced2be0075cd8ee55b555"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kubernetes_2.26.0_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_linux_386.zip",
+          "shasum": "eb5b7ce9aece743e2e24035e82b9e4e4acc28ba1f0305dbf06042fa27003d3a7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_2.26.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_linux_amd64.zip",
+          "shasum": "3a79055eb0459604d21951529017928ac53fe978d98eaecae305969133e38728"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-kubernetes_2.26.0_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_linux_arm.zip",
+          "shasum": "fa8051dc468a6d524ca5f86b1555b42d5b999c901f65eba989a1654bd89a9907"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kubernetes_2.26.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_linux_arm64.zip",
+          "shasum": "f87665d082064c76c9656d2117919ad2265ff9f4031dbdd65a479b86599d1bb2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kubernetes_2.26.0_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_windows_386.zip",
+          "shasum": "7a498aee860606d861183928ac7de0b4d2185b119a65375b1144fda51312ed1c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_2.26.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_windows_amd64.zip",
+          "shasum": "b7770d11dc1328e1113993a7f03e45eb342aead05c7cb19edb647b1e147c8645"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-kubernetes_2.26.0_windows_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_windows_arm.zip",
+          "shasum": "34272a04ff826a53d2e5efcddd91b723b09a259c4e6155a53d080b49e4a6e8a8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-kubernetes_2.26.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v2.26.0/terraform-provider-kubernetes_2.26.0_windows_arm64.zip",
+          "shasum": "8c6f21064aa40a66520fb514c405e8a5837ca0fd476070f8df5f08da49eeaf78"
+        }
+      ]
+    },
+    {
       "version": "2.25.2",
       "protocols": [
         "5.0"
@@ -4331,6 +4411,51 @@
           "filename": "terraform-provider-kubernetes_1.1.0_windows_amd64.zip",
           "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v1.1.0/terraform-provider-kubernetes_1.1.0_windows_amd64.zip",
           "shasum": "58b2e80dac0d31f5826b9e1900511d7148d82d53837b339701c50aabc54ab746"
+        }
+      ]
+    },
+    {
+      "version": "1.1.0-coveo.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v1.1.0-coveo.0/terraform-provider-kubernetes_1.1.0-coveo.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v1.1.0-coveo.0/terraform-provider-kubernetes_1.1.0-coveo.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_1.1.0-coveo.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v1.1.0-coveo.0/terraform-provider-kubernetes_1.1.0-coveo.0_darwin_amd64.zip",
+          "shasum": "2ad912403a94516dbbcac7228101cd229cc360998d9d5cd5347b3f81816a51c0"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kubernetes_1.1.0-coveo.0_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v1.1.0-coveo.0/terraform-provider-kubernetes_1.1.0-coveo.0_linux_386.zip",
+          "shasum": "434e1d86e465fe46ba940142e4043e5ae3c405d1f4a2e8d2498e0fad9eb828cc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_1.1.0-coveo.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v1.1.0-coveo.0/terraform-provider-kubernetes_1.1.0-coveo.0_linux_amd64.zip",
+          "shasum": "fcc689046332b07f0e62aab6f9d75328e83eb355a1feb8e2ef23da73c87ba09a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kubernetes_1.1.0-coveo.0_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v1.1.0-coveo.0/terraform-provider-kubernetes_1.1.0-coveo.0_windows_386.zip",
+          "shasum": "c36fc803a5323f022588d924c5256a6f7076131c1fc1c2be35225564f68cbc50"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_1.1.0-coveo.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-kubernetes/releases/download/v1.1.0-coveo.0/terraform-provider-kubernetes_1.1.0-coveo.0_windows_amd64.zip",
+          "shasum": "432dea6280e1d21d15074e94f71ad1d244595c258722e5644a63ac7ec2a589fd"
         }
       ]
     },

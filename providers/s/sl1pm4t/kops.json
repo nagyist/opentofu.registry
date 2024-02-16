@@ -1,6 +1,44 @@
 {
   "versions": [
     {
+      "version": "1.28.3-gcp.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/sl1pm4t/terraform-provider-kops/releases/download/v1.28.3-gcp.2/terraform-provider-kops_1.28.3-gcp.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sl1pm4t/terraform-provider-kops/releases/download/v1.28.3-gcp.2/terraform-provider-kops_1.28.3-gcp.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kops_1.28.3-gcp.2_darwin_amd64.zip",
+          "download_url": "https://github.com/sl1pm4t/terraform-provider-kops/releases/download/v1.28.3-gcp.2/terraform-provider-kops_1.28.3-gcp.2_darwin_amd64.zip",
+          "shasum": "ba5c5e135a80c8321e1aab0ee1b70301c0958f86688981c8e0271c5678571304"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kops_1.28.3-gcp.2_darwin_arm64.zip",
+          "download_url": "https://github.com/sl1pm4t/terraform-provider-kops/releases/download/v1.28.3-gcp.2/terraform-provider-kops_1.28.3-gcp.2_darwin_arm64.zip",
+          "shasum": "be472b7e805724a9e22aacf772e826830eced2d431cb11bc764457271f2a0c5b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kops_1.28.3-gcp.2_linux_amd64.zip",
+          "download_url": "https://github.com/sl1pm4t/terraform-provider-kops/releases/download/v1.28.3-gcp.2/terraform-provider-kops_1.28.3-gcp.2_linux_amd64.zip",
+          "shasum": "acfa48daaa7bd942a221290be617275e4df516adfe959935ca2cf7ec27c7a14e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kops_1.28.3-gcp.2_linux_arm64.zip",
+          "download_url": "https://github.com/sl1pm4t/terraform-provider-kops/releases/download/v1.28.3-gcp.2/terraform-provider-kops_1.28.3-gcp.2_linux_arm64.zip",
+          "shasum": "7156ca8eface6933a481a10195f1f4d69ac83cda5377c8326bdb5a5f68128b63"
+        }
+      ]
+    },
+    {
       "version": "1.28.3-gcp.1",
       "protocols": [
         "5.0"
