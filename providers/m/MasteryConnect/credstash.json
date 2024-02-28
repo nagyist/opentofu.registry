@@ -1,6 +1,208 @@
 {
   "versions": [
     {
+      "version": "0.5.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.5_darwin_amd64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_darwin_amd64.zip",
+          "shasum": "d6a0bfe5669725df91f90674f82dc94a5fdb8580db21e1e1831620c1c9ab71f0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.5.5_darwin_arm64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_darwin_arm64.zip",
+          "shasum": "efde05b58e6b341f6c932319cacfa06b8727dfd652825f1bc8644403257b8d25"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.5.5_freebsd_386.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_freebsd_386.zip",
+          "shasum": "106f59967cc9cc8e5aa3afa77cbbd72bb341276b1013cb6dea515672a92c94bf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_freebsd_amd64.zip",
+          "shasum": "f4eb559fbbe5ce4b21fdc3be692c6b44e56a4ab178427d0f9488255fd187dbee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.5.5_freebsd_arm.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_freebsd_arm.zip",
+          "shasum": "74c02f165063c1d9f825e549c03be03862f4973c5acca934e3cf8de654ff4b6a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.5.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_freebsd_arm64.zip",
+          "shasum": "047ea9be9fa603e00d7af9c0e3c8165e74448e66482a5386a9c9ddbc9ec7d20b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.5.5_linux_386.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_linux_386.zip",
+          "shasum": "a395e817563de794b5590a22616d64d09ff5f3dab80c0a761e85fcf922fca083"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.5_linux_amd64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_linux_amd64.zip",
+          "shasum": "8a169c0c734f55f05b98dd3d66383fe37ebea945f77661458377ac4c780ba9a6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.5.5_linux_arm.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_linux_arm.zip",
+          "shasum": "e1333aadaaeae560a963aaed798612e73624a29cff96e24a322c8e4e3ff81dd4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.5.5_linux_arm64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_linux_arm64.zip",
+          "shasum": "0aa58bad5aab96e0e84d77a2ab8d0bce57c63c611f6fec7e03bb5499fabc713d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.5.5_windows_386.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_windows_386.zip",
+          "shasum": "26901bb94e1e089d8648cd9eafc9f2c361a5bb260a828642cdc1fa40f84e16ae"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.5_windows_amd64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_windows_amd64.zip",
+          "shasum": "31b546f6ac7ba637d005ee04cc35707ea5bcdfd3e46a8759763c08707b37adc2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.5.5_windows_arm.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.5/terraform-provider-credstash_0.5.5_windows_arm.zip",
+          "shasum": "d5d080cd9a9ad0121ba24d5f87e70b881796faf664b77e2f1675551bad95e3bd"
+        }
+      ]
+    },
+    {
+      "version": "0.5.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.4_darwin_amd64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_darwin_amd64.zip",
+          "shasum": "a5539eef9f30816d6ecff778e2c6104022b724185df01c706de2ef9d21567a54"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.5.4_darwin_arm64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_darwin_arm64.zip",
+          "shasum": "f95c0912b96d87d9397f6623a1f7fa02de5e43b5fc088b7fb0882a52354a9009"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.5.4_freebsd_386.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_freebsd_386.zip",
+          "shasum": "05b899f843d096d71b18baeb8f99c4c53ea4774d7e28390c567d687376dbb9a2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_freebsd_amd64.zip",
+          "shasum": "0a2ff8d3c0a1fe091b7fcb905b88f7770567370a455d41c06651f763f0649303"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.5.4_freebsd_arm.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_freebsd_arm.zip",
+          "shasum": "5b21a57d98d88d7b7c1a54ecadba0672f670f10873b84b2facf0f60c79bac6bb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.5.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_freebsd_arm64.zip",
+          "shasum": "062068b3a872b60448bd8ee630e3b32fca87f5c782105b42b9d3727e112d528e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.5.4_linux_386.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_linux_386.zip",
+          "shasum": "4d490fb946eb57d3a47fbf9820cac76f8e39d9a62c6d698372163db9ef13d052"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.4_linux_amd64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_linux_amd64.zip",
+          "shasum": "1b75feb4567c7e30072b4ece2fe38f8f373b2b60c5280272fc6d504fb11d5983"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.5.4_linux_arm.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_linux_arm.zip",
+          "shasum": "f43b97d9cd69b8c128732ed2897bda4244fb5f7f5e39fc2823176f6b065830e2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-credstash_0.5.4_linux_arm64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_linux_arm64.zip",
+          "shasum": "f1cd6a603b753a314f91d34be740e1ec550d1c6f3aa5af1609362da15a437f18"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-credstash_0.5.4_windows_386.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_windows_386.zip",
+          "shasum": "8657e94c5bcac89f7f66c91bb4738e0afcb34ae0c4b2699b980acf5917b38249"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-credstash_0.5.4_windows_amd64.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_windows_amd64.zip",
+          "shasum": "11c00b69d3313c3d1a51e4ee528ad73344544b2dbc75f331092245b0c598c900"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-credstash_0.5.4_windows_arm.zip",
+          "download_url": "https://github.com/MasteryConnect/terraform-provider-credstash/releases/download/v0.5.4/terraform-provider-credstash_0.5.4_windows_arm.zip",
+          "shasum": "489a2b94cd9313797a9dd5704dbdb2c55bb9e6152041a6951264559daf2ef6c7"
+        }
+      ]
+    },
+    {
       "version": "0.5.3",
       "protocols": [
         "5.0"
