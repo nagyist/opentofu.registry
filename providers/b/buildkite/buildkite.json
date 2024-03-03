@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.5.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-buildkite_1.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_darwin_amd64.zip",
+          "shasum": "c79c2e640914660142cd47473da064f079e188e54c83ad7b3644cf1468b38314"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-buildkite_1.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_darwin_arm64.zip",
+          "shasum": "c6c1472f4a8f93e427e93bffc359049807d7ba3d5e198d3a6738cc40d25c884c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-buildkite_1.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_freebsd_386.zip",
+          "shasum": "336faf63f8d80012dbfbc2b310330cd3a2c618479e0de02812c6abc280519a57"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-buildkite_1.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_freebsd_amd64.zip",
+          "shasum": "3c2d64b06f96b9139c41fc159c97de3aa523070ea20202818874d1436f5b3cc8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-buildkite_1.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_freebsd_arm.zip",
+          "shasum": "b2a5633717b7c916e64bb83b32b09f45a8ee89ae070c8e3618699a58c83b212f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-buildkite_1.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_freebsd_arm64.zip",
+          "shasum": "671c6087883a1baff40c9488820f5cb6780390ce8a998ab6942436dd0601b980"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-buildkite_1.5.0_linux_386.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_linux_386.zip",
+          "shasum": "e7d51534adf4bbe6f1f6b2eedbe3c3bec9ade2d1e2a05e920a7204ff96c06356"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-buildkite_1.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_linux_amd64.zip",
+          "shasum": "1b1e2922bb050a55e028e2a98f3afe662a914ef36983e4e53b5c56873b067c46"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-buildkite_1.5.0_linux_arm.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_linux_arm.zip",
+          "shasum": "c06c5e3d4ecd03b5145160883cad7ac0a97bf33bfa5e8153177b29d3eed7ab05"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-buildkite_1.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_linux_arm64.zip",
+          "shasum": "af92930dbd1260999513f4f6fe4891e17ee78f08eb95c7341d4bf8f36a74f5b9"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-buildkite_1.5.0_windows_386.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_windows_386.zip",
+          "shasum": "3904a1cbb2bb0023d166ed09919a5676b61f2684e6d11e11f9e94b00e794ab57"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-buildkite_1.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_windows_amd64.zip",
+          "shasum": "2ee940ceda1521a3f5c7dd2b0fcf0df0479c31d3d165a910b9f6fe7f8c20332b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-buildkite_1.5.0_windows_arm.zip",
+          "download_url": "https://github.com/buildkite/terraform-provider-buildkite/releases/download/v1.5.0/terraform-provider-buildkite_1.5.0_windows_arm.zip",
+          "shasum": "0b9f4b66c976b10fb908c17d40d7ef7e39bf006b04b25a605eb0f278733119d2"
+        }
+      ]
+    },
+    {
       "version": "1.4.1",
       "protocols": [
         "6.0"
