@@ -1,6 +1,128 @@
 {
   "versions": [
     {
+      "version": "0.5.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudstack_0.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_darwin_amd64.zip",
+          "shasum": "126b1c39cde87e03a61e5415530c475f872ce32b45c498de671a9f0ce14c8263"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudstack_0.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_darwin_arm64.zip",
+          "shasum": "70e520b5eedb4bec216056788aa9184e349f60bae2c0e8fab3a33215c1de6434"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudstack_0.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_freebsd_386.zip",
+          "shasum": "ece4140313a4897cfa20b521c8b9a52220366f64018c970430cd2ca0868b9a8d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudstack_0.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_freebsd_amd64.zip",
+          "shasum": "07611c2a17dbff3f4d93c661cd2520d59d02c2ead164c2afcdbe6beced30f485"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudstack_0.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_freebsd_arm.zip",
+          "shasum": "e87cbdaca3ed526041fcc4f52a1b8ee2da609464b33a354d7584234c86ae2006"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudstack_0.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_freebsd_arm64.zip",
+          "shasum": "0e4007ef4892dfc094891f11d3aa881194264c4f43f48aff41a929daa1c137c8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudstack_0.5.0_linux_386.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_linux_386.zip",
+          "shasum": "e9a93ac520521c17c1ddad530b0b29158b4e242e3e4d48b873fac31dc0b66324"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudstack_0.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_linux_amd64.zip",
+          "shasum": "4e3c2b908f92faa1fda448153dfdcee1c67b4c438a508c2a28d50ae8e2f7b529"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudstack_0.5.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_linux_arm.zip",
+          "shasum": "b47a2cf3b965c130e2d37154c1665d80c7dec3f353ca18b95dd72f7822182965"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudstack_0.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_linux_arm64.zip",
+          "shasum": "05a567e77afafa465c2213692dce40a225fc2afe9340d400da8ab1bdd53db8d6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudstack_0.5.0_windows_386.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_windows_386.zip",
+          "shasum": "7dc78cfa41a2441e1c9686515ca052f45efce4053de0f8067f99ea1be01027b1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudstack_0.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_windows_amd64.zip",
+          "shasum": "4bd22aabcd5100cad44894a5c94611a558d68bcd499c75bb812c0416acd6b6b6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudstack_0.5.0_windows_arm.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_windows_arm.zip",
+          "shasum": "027996154cc477e5220a4bcf3c4365b287f99153acd097cd92efe10b115ac322"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudstack_0.5.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_windows_arm64.zip",
+          "shasum": "7d14fbe300560329e5558f5f4c57a81c3af29d14958bf5ff500a67747f91211f"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudstack_0.5.0_openbsd_386.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_openbsd_386.zip",
+          "shasum": "16d063f626b348315f5dbf2675e2697f2e717dc9b335ab854186b99756124a5d"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudstack_0.5.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.5.0/terraform-provider-cloudstack_0.5.0_openbsd_amd64.zip",
+          "shasum": "ec0e36e4940b8382e5ef6906496d8f9938c62df046ebd328942ed2344d4c3a78"
+        }
+      ]
+    },
+    {
       "version": "0.5.0-pre",
       "protocols": [
         "5.0"
