@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.29.44",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.29.44_darwin_amd64.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_darwin_amd64.zip",
+          "shasum": "0619529ef15a498235dce2aedb45658ff91da79a5bf5efd3fbfd6fb48fc11051",
+          "h1": "h1:6bjVj2aPCsVPpquSTa1sAS+0OpWZp8fR33W2ieRDge4=",
+          "size": 8196219
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.29.44_darwin_arm64.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_darwin_arm64.zip",
+          "shasum": "6ec20b88431a6b7ff9cf7c82dddfeea5bde29cac2ec53d8e233c7ecfcac26c75",
+          "h1": "h1:oNnBNLoeS14+cqo+XQnmoUUVWzRQx7iLfjUT/gESw6I=",
+          "size": 7621648
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opnsense_0.29.44_freebsd_386.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_freebsd_386.zip",
+          "shasum": "5145c0a0b03b3ed5402976040af190fec1673a2fc83eb0debaaec73eb06efd5b",
+          "h1": "h1:pr7YN614mtNQJiMbyrIe7utaf2Gx8GP7M8BYjaUYE+k=",
+          "size": 7442509
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.29.44_freebsd_amd64.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_freebsd_amd64.zip",
+          "shasum": "e721b9937ad75e37e22438c84cff878666b52592e1a072b68b02eab3cd217295",
+          "h1": "h1:fX5JAYZwTqrSVYY2+dB5jXxA4CHoZyozciAbuhYaOao=",
+          "size": 7957648
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opnsense_0.29.44_freebsd_arm.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_freebsd_arm.zip",
+          "shasum": "a73ad9ad8ad7d75a0b14ba6e396477935b45218a271a02d1df5d848a5558680a",
+          "h1": "h1:d4L47cnmu74qQZ6hOuapU5vDcBtcb+12pELk0Apzj1c=",
+          "size": 7473598
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.29.44_freebsd_arm64.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_freebsd_arm64.zip",
+          "shasum": "3b9279bd6331a595e5c9e8b8e379ceff3d7c5211e18ea5506926592ee20bcbac",
+          "h1": "h1:zLufRpXJM8QwaW/ctCN8pQh8aM4d1ff2UyEKm6TApjI=",
+          "size": 7209837
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opnsense_0.29.44_linux_386.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_linux_386.zip",
+          "shasum": "9daa89f47b98679e48d3d1b3ec576c0981447b0cff88894727f0567fdf6f02f0",
+          "h1": "h1:hP5OHE/U2RtMrIT+rod8VYsSLH6CPIrmUkwtVOk/8xU=",
+          "size": 7476767
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.29.44_linux_amd64.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_linux_amd64.zip",
+          "shasum": "6cb825112cb99f0a04593d792fb3ec2a0ff887389f809a2c7dfea6fac1a649c2",
+          "h1": "h1:qORkTJi7JSdYez8qtDKjB/Yz2LlYXAmOM/cn3DlVpCE=",
+          "size": 7986530
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opnsense_0.29.44_linux_arm.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_linux_arm.zip",
+          "shasum": "f4c30422bec67549c8959fbf37e42df8f11a09672be796bd370601a65b488368",
+          "h1": "h1:gjo7jwQkIzsb/VOi0e+072eK1qmkTa8Vu74jB3wGe3A=",
+          "size": 7496503
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.29.44_linux_arm64.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_linux_arm64.zip",
+          "shasum": "4d4fb9fb88db139ac32504eab9c64e8742c30725021e550b613972b8aa3cafeb",
+          "h1": "h1:YlkaW1n1gDrLVuTKgML9d8Ea5Qmh2g308kI7GMKF4sM=",
+          "size": 7239459
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opnsense_0.29.44_windows_386.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_windows_386.zip",
+          "shasum": "6c003784b9b5f131bcfb713b009e61e2dec58cf1ef93b7ae841ee4326df9dd6d",
+          "h1": "h1:jwm0fDjbRmOrCPcHIexna3I6XBXmkd/zjjdNPmXLOoM=",
+          "size": 7837631
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.29.44_windows_amd64.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_windows_amd64.zip",
+          "shasum": "f8322409d9f45f1eedc1c278aa12319d0f9db3cd5fe38d6365e55bf61f7f0f1d",
+          "h1": "h1:AJ2umEbRLV6xb5wDa28V5TxaRJjZQIibhOfaqNDNpcY=",
+          "size": 8212024
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.29.44_windows_arm64.zip",
+          "download_url": "https://github.com/biptec/terraform-provider-opnsense/releases/download/v0.29.44/terraform-provider-opnsense_0.29.44_windows_arm64.zip",
+          "shasum": "6e7ed267fc183c188cb79e836a546c55952c80acbd0b9df1a62b1a384dc897a5",
+          "h1": "h1:P/qaV8Qn1/452GOsyngC5cyG2t4DUvB9amxlOxd/Sb8=",
+          "size": 7327708
+        }
+      ],
+      "discovered": "2026-11-14T16:17:50.938308786Z"
+    },
+    {
       "version": "0.29.43",
       "protocols": [
         "6.0"
