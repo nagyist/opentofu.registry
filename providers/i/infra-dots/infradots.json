@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.11.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-infradots_1.11.0_darwin_amd64.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_darwin_amd64.zip",
+          "shasum": "e1f1bfabac6a32772c988e18ed80758ae2d3dbda5084ba83b656bd83636a1122",
+          "h1": "h1:VUeo/08GWb2jNXrj6wCiJaR3xyEWumTphkFZBYgOhXQ=",
+          "size": 6643339
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-infradots_1.11.0_darwin_arm64.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_darwin_arm64.zip",
+          "shasum": "b55d33add6757f14d6fbfadc851289037d9f21c2996731de636ee93ae56d2a29",
+          "h1": "h1:yEgpp8gFHau0F3a6nrAtI/Pny8O1RzomliXN1NF8V6g=",
+          "size": 6172001
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-infradots_1.11.0_freebsd_386.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_freebsd_386.zip",
+          "shasum": "8ea7f5f19304cfcc095aff5adf437f4ab00dbfe6f43716660cbe03d615e5de11",
+          "h1": "h1:WU+684xXUhwf4cPq9wPOgXz44gcgw3zxfpiq2Zq52YA=",
+          "size": 6107022
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-infradots_1.11.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_freebsd_amd64.zip",
+          "shasum": "984830f2049ecd52202e66b0c80a2f3e4e66eeddd646fab44ddf8fec59a8bb51",
+          "h1": "h1:Mlu2v6gQN6xM5DSqf0x5A8I/OreHlxdacoNS+eWrHl4=",
+          "size": 6467340
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-infradots_1.11.0_freebsd_arm.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_freebsd_arm.zip",
+          "shasum": "5f7ff6df7c5da03c10afa867c5010ee3e073972e8f940eb3e3e0242edd5f4bcb",
+          "h1": "h1:yaCpgE3KfeJNN2JaIJ9O+gFboq3GdH5nA1ul5OYz8Ts=",
+          "size": 6069608
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-infradots_1.11.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_freebsd_arm64.zip",
+          "shasum": "19929001c1e4989b7df669fdad185ab5725638c565456d0d1cb602b325a4f53b",
+          "h1": "h1:FD8n+BauAen0m1rHdcMJiR21VQUfKAyBDigD+m/gJbo=",
+          "size": 5858893
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-infradots_1.11.0_linux_386.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_linux_386.zip",
+          "shasum": "52b58c9902e64c75ffbf5c7e2b823d2e1138235bd78befcc1e22dd48375f6a43",
+          "h1": "h1:SFVkWzSPFsvfEB812GSQPTXI9coAwA75Jj+yivDpwRY=",
+          "size": 6133840
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-infradots_1.11.0_linux_amd64.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_linux_amd64.zip",
+          "shasum": "cdd8ba8c0af332030aa399326c9080ba7305c55c244db59925aecb52fe465a0b",
+          "h1": "h1:PjXRjV0zcZhLOmLvzgeygY6xuEHRCJAMvHqI1hoRYjg=",
+          "size": 6490517
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-infradots_1.11.0_linux_arm.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_linux_arm.zip",
+          "shasum": "15ae15f7146b23fc2a74f1b9d5d014f9ff92ae9e04e2fb3ff9ff02df34a48edf",
+          "h1": "h1:kwUgZTm3hvs9boeYsiJ3tqdW4C34SlE2boTXoEgssgs=",
+          "size": 6093493
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-infradots_1.11.0_linux_arm64.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_linux_arm64.zip",
+          "shasum": "82daeff2214d6bc9ec719c11bdc14fda1cbb4244633de821ea5e7ce056875548",
+          "h1": "h1:aOCryb52mXNk4r5v15GKXh5IqSgMNlyuC10wf3yoxf8=",
+          "size": 5884912
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-infradots_1.11.0_windows_386.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_windows_386.zip",
+          "shasum": "af8a890deeef2b79c2ba1739c29e489607c0bfc6b7bcb8dae95593d9bb3eb9a3",
+          "h1": "h1:zdShX1znIgnffSXpKoMJGPf4Mi1Cwuxu3Pryq7t1Zqo=",
+          "size": 6416176
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-infradots_1.11.0_windows_amd64.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_windows_amd64.zip",
+          "shasum": "9508b7a94d3a4693726c1e22e2ba5bae6de346351a111f14cd659a7498e88b70",
+          "h1": "h1:D9Tz/it2LZtdH+j5SZxdOBR7Eq7Uz6zo+ypKwRHRSu8=",
+          "size": 6685039
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-infradots_1.11.0_windows_arm64.zip",
+          "download_url": "https://github.com/infra-dots/terraform-provider-infradots/releases/download/v1.11.0/terraform-provider-infradots_1.11.0_windows_arm64.zip",
+          "shasum": "a44b0e54ce9163fedbe4ce933eb5efeb8319f51a6a089c5ee689786401f3c3b0",
+          "h1": "h1:MGghMcTFHfEe3HM9m69hyKpKutbp4JpsgVFySSXKaXs=",
+          "size": 5963898
+        }
+      ],
+      "discovered": "2026-11-14T15:16:25.970064736Z"
+    },
+    {
       "version": "1.10.0",
       "protocols": [
         "6.0"
