@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.24.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.24.0_darwin_amd64.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_darwin_amd64.zip",
+          "shasum": "392d91c2c1e597728fc9220f7cea0904130890058364b35aabd07240c8ab1d88",
+          "h1": "h1:nujCNZ7UX5scS8wM9XjfFNSZKCYBrwmCx0K2W4ThGrI=",
+          "size": 8593207
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.24.0_darwin_arm64.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_darwin_arm64.zip",
+          "shasum": "7b242a2ba8c3a3c299a373e7fbc35f617ddd943f087161dc28da266ffc83b725",
+          "h1": "h1:qssiwKpKpXxsguBzuXVgIwwsX66MmGH2d2LfSw+3eDs=",
+          "size": 7943306
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opnsense_0.24.0_freebsd_386.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_freebsd_386.zip",
+          "shasum": "28aa403eb47bb474c05958cb7c5241cf9c9fefd5fcd6f613de7961b3999c4591",
+          "h1": "h1:idCikjcmVnoDZj+eBs1wIdaEMQsNKJw968J9F67VmH8=",
+          "size": 7761934
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.24.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_freebsd_amd64.zip",
+          "shasum": "4d1320510d1e38b677ccca31e758a1e064305dde0d4a090b975c78e47083d061",
+          "h1": "h1:w+cuvd7apBtuA0bU6oc5amVtCx8SyUsSdy5j6lh/zsA=",
+          "size": 8346790
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opnsense_0.24.0_freebsd_arm.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_freebsd_arm.zip",
+          "shasum": "be95101e0f764b8b029df37b97712b38023ed418bcc98e2033c7a9ec997b5d45",
+          "h1": "h1:lcUBgxTSWIawxpnSr+84TC7+95nh86FQeo8vve18kJw=",
+          "size": 7782344
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.24.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_freebsd_arm64.zip",
+          "shasum": "85798edfcdbb91a3078e4161b80c6669986a35ea6290ca335a39acd680182c84",
+          "h1": "h1:fzZmI5jUticTjJjRilTJJ9nJKEYmN2TF+D0EtnB82OY=",
+          "size": 7513143
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opnsense_0.24.0_linux_386.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_linux_386.zip",
+          "shasum": "bf80aaf5619e420c8e69c0d4410e8f1d9887222d2d277fbe6c1925d79f8ae687",
+          "h1": "h1:L6Nq5Hqvg9DSkPVodDnDklHRs2RRpHi3iaCIXDbp0Fk=",
+          "size": 7795861
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.24.0_linux_amd64.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_linux_amd64.zip",
+          "shasum": "477f4c930783a7e02c2a1f61d99d213959fc4db698d993ff90eb12d0308e92db",
+          "h1": "h1:G8ELMj/Z8l7mhPUtaM1hO+uqMoxH6o5IBQpNCIa3guM=",
+          "size": 8371846
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opnsense_0.24.0_linux_arm.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_linux_arm.zip",
+          "shasum": "3f671e71d6c32d5a9b62420f71ba38b8987c66dfd4f2c983adf273277e78cdec",
+          "h1": "h1:sKV1NSqkmQQOWj5i4MAXK0/nH0D7FXafSvG8SDm8XNY=",
+          "size": 7806266
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.24.0_linux_arm64.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_linux_arm64.zip",
+          "shasum": "ddd39ae0269d7c875b99e4e6ae91b8f7f98dfa85a99e4d040021a2719465b318",
+          "h1": "h1:xEAoW1gAw9ZLhFLAOSn6d9zSu9rz3W+u1VJ4YpJ2PU4=",
+          "size": 7542627
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opnsense_0.24.0_windows_386.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_windows_386.zip",
+          "shasum": "6a8df83d3fe2135f35b42f2c28eb5593f4a8ded984e431f657719819642dce6a",
+          "h1": "h1:UfcthW6hS+Wqqfnfu1TKauQF78Wi3f36gXvJ5yD0lZA=",
+          "size": 8201069
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.24.0_windows_amd64.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_windows_amd64.zip",
+          "shasum": "816a0d96e70f0c0ac841a2e595b560b89a54a10f745371eb5a1ead1473a7df31",
+          "h1": "h1:VsB7R06L+Ln5PhXV0hyh63UmeiVQ3L0AIrQQPXqu2xY=",
+          "size": 8606845
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.24.0_windows_arm64.zip",
+          "download_url": "https://github.com/matthew-on-git/terraform-provider-opnsense/releases/download/v0.24.0/terraform-provider-opnsense_0.24.0_windows_arm64.zip",
+          "shasum": "8f817f44b251dad3827c639102ee1d91d897cb059095466615d83926b22fbed3",
+          "h1": "h1:CGzHvGSwKKBNfT4w9AK6g5baEZXOY8553uKMQW5Gr4A=",
+          "size": 7628144
+        }
+      ],
+      "discovered": "2026-11-14T18:58:01.888747995Z"
+    },
+    {
       "version": "0.23.0",
       "protocols": [
         "6.0"
@@ -4095,13 +4223,6 @@
         }
       ],
       "discovered": "2026-11-02T15:31:26.31823075Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.24.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-11-14T18:22:17.654203173Z"
     }
   ]
 }
