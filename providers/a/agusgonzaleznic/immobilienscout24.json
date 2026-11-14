@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_darwin_amd64.zip",
+          "shasum": "dcb7597873ca221828a5a2294eb2a1a22f64ba2e683ebc42c9960372fa3b99c6",
+          "h1": "h1:q5PPc/vrKh/UdEtH22RHBNRhBjl8b9k0Qxh3Wb1YpUg=",
+          "size": 7326324
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_darwin_arm64.zip",
+          "shasum": "020b2ef34877426fecc7f71e7aea18a99807b4d9dd519ef4947ed49c623e3c79",
+          "h1": "h1:xNZX+BNuJI5g1ARue2xH+Tn9PjLM/lra+KFjy8ncbKA=",
+          "size": 6782646
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_freebsd_386.zip",
+          "shasum": "ff0ebfe318a830ab312e84410a3392d8c79c107a70186edb3777f3e78e6b51e1",
+          "h1": "h1:3GR4wvvkPQZCUIhr7dvXfVCcw6hC4ds95vJxyhOAZfA=",
+          "size": 6737144
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_freebsd_amd64.zip",
+          "shasum": "ee986be8ab89f5db26649c5e46eddcb718db90ef9ffb6ed36d04b460c1dc3d22",
+          "h1": "h1:QMO/wRTFR3AjXnYp9zHRAriVBX3BDs4ChV7Jku77s2w=",
+          "size": 7108448
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_freebsd_arm.zip",
+          "shasum": "7591c9f9f8b9945e8f546cb74c5affc23687ef319ea59199a8ecf18f4466cfc4",
+          "h1": "h1:tbKIqcNcO0m5YUAXx2UrRKSuuG71G0XqBBQOxJ+fb1Y=",
+          "size": 6708779
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_freebsd_arm64.zip",
+          "shasum": "86184dd8c1eff47f255d2942ee15911158264c10840a0c78deeb9a9e4351a62e",
+          "h1": "h1:C9Bu7krYzLmU/IekDDWqYb45n0azeEWbMbqX/O4knNc=",
+          "size": 6418366
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_linux_386.zip",
+          "shasum": "7c086f69137461e466b5371c16dece192c51e908cda44e0988a905fca7d6fa7e",
+          "h1": "h1:diRPy11gw7TCQ5nV0od3bKXoiuB37ZmiRpu+/73ZHYo=",
+          "size": 6776934
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_linux_amd64.zip",
+          "shasum": "6a005e9b72cbb4015ab9ff3d6beea019249e596e48d328ea701ed168e0006372",
+          "h1": "h1:CF9CNssdCnEPf1MoCYsAeqy3djhwfdvBFqLWTc46suY=",
+          "size": 7130193
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_linux_arm.zip",
+          "shasum": "45719e44ba8597330bad48221c516941f635688df88719319ed97c9d32115309",
+          "h1": "h1:aBjO7By6Q49+oVCIpZvxR2LdQsj9G0rXy+fqA+JVPrs=",
+          "size": 6731268
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_linux_arm64.zip",
+          "shasum": "bf5f6e34597d92da2c3da4416dd5b86586d783fd412157451fa054e16f25e2bd",
+          "h1": "h1:/Tmlaztfdb5kHUEmiYqKfJwQ/mnHRjfEJBwMUAgipy4=",
+          "size": 6443566
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_windows_386.zip",
+          "shasum": "08f44abb15fc6061d25046526b1ee5780934f8c96ff741eb8369c46046535f7d",
+          "h1": "h1:Q+voHQQTpzFtbm0cqsFc/oTcBTZJcl18Qm8ZjYS2rws=",
+          "size": 7099911
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_windows_amd64.zip",
+          "shasum": "ff7f9ec3d6d3531f5140c95f7b2d3ab6534c0f32bc6ae40d6a83f64f635579b2",
+          "h1": "h1:IE9KKX2P2rp1yhDvfgVzbDmoiBoEmhh8Ye/+h+mWeC4=",
+          "size": 7347657
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-immobilienscout24_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/agusgonzaleznic/terraform-provider-immobilienscout24/releases/download/v0.3.0/terraform-provider-immobilienscout24_0.3.0_windows_arm64.zip",
+          "shasum": "e28bc4790861f2dbb74dce533ad2806c7cbfffe09375b55d65f2ec68585a6b4f",
+          "h1": "h1:X6s9sMdgQAV3NeCzs7CVDwawJxTkUZ0XJSwlvh1jxCQ=",
+          "size": 6540104
+        }
+      ],
+      "discovered": "2026-11-14T12:57:46.52499083Z"
+    },
+    {
       "version": "0.2.1",
       "protocols": [
         "6.0"
@@ -383,13 +511,6 @@
         }
       ],
       "discovered": "2026-09-29T18:57:50.062914466Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.3.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-11-14T12:20:17.665683866Z"
     }
   ]
 }
