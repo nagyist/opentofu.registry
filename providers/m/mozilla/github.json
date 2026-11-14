@@ -1025,6 +1025,134 @@
       "discovered": "2026-08-31T13:26:21.875394874Z"
     },
     {
+      "version": "6.14.0-mozilla19",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_darwin_amd64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_darwin_amd64.zip",
+          "shasum": "9781e1ad64759668afbf37b7fc533253801594b810e5377f5fa43d61947887a2",
+          "h1": "h1:Co3tjCwRFgwgdGA1Z7l5qJZRA57VwWlpaAZW2jMl0MI=",
+          "size": 9643052
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_darwin_arm64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_darwin_arm64.zip",
+          "shasum": "1aaeca880e193947e2583f82b0a4735b6a2aed7b13787505a1921e322dd4cb2f",
+          "h1": "h1:NZ7jBkmRgsGwPAXpKVT5evK63/kpy7vDMgTXZPeQcw0=",
+          "size": 8876069
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_freebsd_386.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_freebsd_386.zip",
+          "shasum": "515cb29e84811e435088a829d6d8bfa6b52567d9013d38bd4a884718495f69d3",
+          "h1": "h1:7vt3cWw/cVtdqVNPOm/JJaBqigV62ex8KpeXZ4M51Po=",
+          "size": 8855264
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_freebsd_amd64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_freebsd_amd64.zip",
+          "shasum": "fc4351773b9810b61b12705bbc293bd26c5061ad533f8bee155fa4066d3d6153",
+          "h1": "h1:tl1jmmRXKjbwHlpQjF+C0z0/8bqgyYmQ87RycZf/J3Q=",
+          "size": 9373216
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_freebsd_arm.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_freebsd_arm.zip",
+          "shasum": "d6b8f92d30afabbc4002a8d9ad4600e86f0f6bbfa46c4c150c78aa3e1b427c16",
+          "h1": "h1:tE9RYVV3N0X/hdILztW/KZx+DM3vFlj6jt1GkE/JoDY=",
+          "size": 8853139
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_freebsd_arm64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_freebsd_arm64.zip",
+          "shasum": "6f4a8ce36f9b8c6d8da9f4757cd48535fd463f87d6c76c89d1de7e59820fa259",
+          "h1": "h1:+5m2s8zHXSy6qFTxk3IqO6cMEWzYHfbJUpPyhwzONaI=",
+          "size": 8398275
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_linux_386.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_linux_386.zip",
+          "shasum": "18d2bb6719a1356a64b2398b4ce0ae30613e8e0eb33b03acb24fffd719724fd6",
+          "h1": "h1:8ZHY2cHOSUAR3sxMysCJd1f40VdbONJvVzb003SsGsQ=",
+          "size": 8895776
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_linux_amd64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_linux_amd64.zip",
+          "shasum": "e4f307ceac8ee47bffffc0fa58210e7ea8ed2f23059d521e652c6f3e9ee0d66c",
+          "h1": "h1:5XmW3YbZpXCljWdwa8JEzHZ5E+pd052PBlgBMSK8O8g=",
+          "size": 9403158
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_linux_arm.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_linux_arm.zip",
+          "shasum": "f89d6feb96e49d94724b3ff8bca99f765194e9769b635b936624ac54841ae46b",
+          "h1": "h1:vD/itL0KlKUoSSVwov7JacamrmAKgYRTzokahChl4FE=",
+          "size": 8876734
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_linux_arm64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_linux_arm64.zip",
+          "shasum": "bf193544d2303e082428af622083968aeecf5be1e5f79949dcc777420f51a8a4",
+          "h1": "h1:rPDDYIMo3ISbtOO80S7lCDgNWbc3IzMvbugZr99Vn1Y=",
+          "size": 8433952
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_windows_386.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_windows_386.zip",
+          "shasum": "7165a83ef4c5b71ed0bd8f7655ccae02ccc72861812363a450e6c3fabb373c83",
+          "h1": "h1:UAztKUqXVo1YBXmIkV6zmZ/nm0FwJG9f8uV83oj8uVg=",
+          "size": 9337416
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_windows_amd64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_windows_amd64.zip",
+          "shasum": "ec410f3da4fceef3cd1f4186cbb540932688d6e17fc831736d9ac522050589e5",
+          "h1": "h1:S452/K2K5S0jkjGIT8FpIokjuzS5o/TbHka6+KZI03I=",
+          "size": 9657933
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-github_6.14.0-mozilla19_windows_arm64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-github/releases/download/v6.14.0-mozilla19/terraform-provider-github_6.14.0-mozilla19_windows_arm64.zip",
+          "shasum": "b9dd582213adaeccd35a7d0426cbe81e5256a19e3e5ac6b427c0142847c3c01f",
+          "h1": "h1:pv0K82SAvTX7VD55oA/p413AQ821iWL3AIuv7IJ0Ejc=",
+          "size": 8524049
+        }
+      ],
+      "discovered": "2026-11-14T19:12:17.005086813Z"
+    },
+    {
       "version": "6.14.0-mozilla18",
       "protocols": [
         "5.0"
@@ -2434,11 +2562,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "6.14.0-mozilla19",
-      "message": "checksums not found in release",
-      "utc_time": "2026-11-14T18:38:07.593684384Z"
-    },
     {
       "version": "6.13.0",
       "message": "checksums not found in release",
