@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/caberdo/terraform-provider-trino/releases/download/v0.3.0/terraform-provider-trino_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/caberdo/terraform-provider-trino/releases/download/v0.3.0/terraform-provider-trino_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-trino_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/caberdo/terraform-provider-trino/releases/download/v0.3.0/terraform-provider-trino_0.3.0_darwin_amd64.zip",
+          "shasum": "449087bd7be1653b350045d58a0189d6683518dfb9926551796289984f2b82ba",
+          "h1": "h1:26DVSgdR0AYKB2HwKyF8yNa16KFAnvF7oIlTChqmDcc=",
+          "size": 8159552
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-trino_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/caberdo/terraform-provider-trino/releases/download/v0.3.0/terraform-provider-trino_0.3.0_darwin_arm64.zip",
+          "shasum": "4c10414af21e42bdf338c7455b2e649b55af05fa6f2466e0199b998720b78ead",
+          "h1": "h1:ieHezdJSeopayY3fL7goAv1jTeNAGXcWo75V6llK6a8=",
+          "size": 7549377
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-trino_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/caberdo/terraform-provider-trino/releases/download/v0.3.0/terraform-provider-trino_0.3.0_linux_amd64.zip",
+          "shasum": "f00596e3e061d93e132eb1336daa7b37fc92de6be995cb8f553e28959c175253",
+          "h1": "h1:e5Ofoewr4DckkQhFJ5gY4lhoVfC0eJrFva9OrHy9OrE=",
+          "size": 7952682
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-trino_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/caberdo/terraform-provider-trino/releases/download/v0.3.0/terraform-provider-trino_0.3.0_linux_arm64.zip",
+          "shasum": "c6dae4fa352b6d0b7dc5d28780b1fb6e97b83a6b4cb8f88b57a37a68d56868ef",
+          "h1": "h1:SHi0M6rGJ2/Bv6ecpdFWJXMbBpIYTM9EYVuWZ2zqhhM=",
+          "size": 7178101
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-trino_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/caberdo/terraform-provider-trino/releases/download/v0.3.0/terraform-provider-trino_0.3.0_windows_amd64.zip",
+          "shasum": "8681296767c902194418ca98da66a9cadcec8e260c0abb69a65eee3f7b8e7744",
+          "h1": "h1:z4nlFxX72ge9tLC0mTvg0+QKwAAGXcaYco8WMPExrIQ=",
+          "size": 8202710
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-trino_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/caberdo/terraform-provider-trino/releases/download/v0.3.0/terraform-provider-trino_0.3.0_windows_arm64.zip",
+          "shasum": "22833de7b10e05d8f94726e7bbfba8025ef5608d19df7e45891f4392187594a9",
+          "h1": "h1:hKj2iEqSrmpaQxRfPYtDgq28X3T8Eiw6exUGIcbYi+s=",
+          "size": 7290123
+        }
+      ],
+      "discovered": "2026-11-14T20:42:46.631384477Z"
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "6.0"
@@ -194,13 +259,6 @@
         }
       ],
       "discovered": "2026-10-24T13:55:02.535832728Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.3.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-11-14T20:07:42.290958914Z"
     }
   ]
 }
