@@ -4096,5 +4096,12 @@
       ],
       "discovered": "2026-11-02T15:31:26.31823075Z"
     }
+  ],
+  "versions_errors": [
+    {
+      "version": "0.24.0",
+      "message": "checksums not found in release",
+      "utc_time": "2026-11-14T18:22:17.654203173Z"
+    }
   ]
 }
