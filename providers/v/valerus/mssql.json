@@ -1,6 +1,116 @@
 {
   "versions": [
     {
+      "version": "0.9.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mssql_0.9.0_darwin_amd64.zip",
+          "download_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_darwin_amd64.zip",
+          "shasum": "a723a3532aee25e5c715a4bd07ac5735bde6fba9e040dd3747b62bed8ef7ba9b",
+          "h1": "h1:7NBooDy/O5BhhdAOfBaHYdtcm6ElQMJ8Fik0aaFI/b8=",
+          "size": 8918697
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mssql_0.9.0_darwin_arm64.zip",
+          "download_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_darwin_arm64.zip",
+          "shasum": "46e9d3197cae96e780ce61ea36c6331464cf2dc6cca4876a84eda0f9b5306026",
+          "h1": "h1:ErzrhmSuXRd2ezL2eSCDGO307YwByHVj0iTRrT6Q4zI=",
+          "size": 8269941
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mssql_0.9.0_freebsd_386.zip",
+          "download_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_freebsd_386.zip",
+          "shasum": "1110409b479c49c5495a53130a47738af751ee80628c5034a8a95e54c1683f7d",
+          "h1": "h1:6UnAbVf7w2opeuvEyuVrCfFtF1h8EmDMzDRfAznYiVI=",
+          "size": 8273562
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mssql_0.9.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_freebsd_amd64.zip",
+          "shasum": "a33faa218f0c2593fa911af6bda074dc35d4fae1bf3b1a7bafaa9c8d91001828",
+          "h1": "h1:MFLvICmqe/vYBzH/Nuk9UL1sXN4oX315XcGUoyeLkz4=",
+          "size": 8694708
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mssql_0.9.0_linux_386.zip",
+          "download_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_linux_386.zip",
+          "shasum": "2552d2d61b6270a4ca82d43a32db92dc7fabb463c956ac3e94d56ef978745269",
+          "h1": "h1:uK2EGp3cD9EiXJQBs2pg586PXZB/STRkLZWkw1UEWwQ=",
+          "size": 8323005
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mssql_0.9.0_linux_amd64.zip",
+          "download_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_linux_amd64.zip",
+          "shasum": "10de10af48144237e2d98b040e8cf2e8afc3a75039b7677cbf3166cff0555b09",
+          "h1": "h1:lKcZ3YuMGFQUcCnZH1bhuwvlS/8Qg5uD3D8z1Vh+3yI=",
+          "size": 8729507
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mssql_0.9.0_linux_arm.zip",
+          "download_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_linux_arm.zip",
+          "shasum": "7816387f9fa5511f53bfe19a5b6339d79c0320356159f57e834e5c28191690c3",
+          "h1": "h1:4AVj9q38Id98iJ717sF5+LME00hcRBmxsSxpFoTa7ws=",
+          "size": 8281779
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mssql_0.9.0_linux_arm64.zip",
+          "download_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_linux_arm64.zip",
+          "shasum": "f66c963aee55fe34e0920c849592cbcf522b0909aab76585e7c01a7e9ed7210e",
+          "h1": "h1:Hw3zZdazNJj9dIQQMDdvYiuNDK5dX5lYxFHcariSXNo=",
+          "size": 7907832
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mssql_0.9.0_windows_386.zip",
+          "download_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_windows_386.zip",
+          "shasum": "60522585f7ce7d99601cb3a76a94fcb3a1d8a369aa95233f222c4abe08aeddbb",
+          "h1": "h1:rVkZNVeWURnkx2lkRvtINs5KwRGNpkyXG4v2raGURKg=",
+          "size": 8703049
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mssql_0.9.0_windows_amd64.zip",
+          "download_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_windows_amd64.zip",
+          "shasum": "cf67cfe6713183ff1a00cd4d2052f1636298344d53f498e5359ff248f18f5629",
+          "h1": "h1:kLnfkB321LpBihorT68jUoY+5J4BQK61iYZkiJjzO/s=",
+          "size": 8980561
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mssql_0.9.0_windows_arm64.zip",
+          "download_url": "https://github.com/valerus/terraform-provider-mssql/releases/download/v0.9.0/terraform-provider-mssql_0.9.0_windows_arm64.zip",
+          "shasum": "cf3ee23fd3589e1f568b0010d07232a08d649baee31e90375eadb8865541fd3e",
+          "h1": "h1:pUrO6v0nDTuA1S1GlllS3RgD33FLLAsv01Igcv0Z2bE=",
+          "size": 8009963
+        }
+      ],
+      "discovered": "2026-11-14T13:16:26.836726829Z"
+    },
+    {
       "version": "0.8.0",
       "protocols": [
         "5.0"
@@ -1858,13 +1968,6 @@
         }
       ],
       "discovered": "2026-06-18T14:28:49.070029107Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.9.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-11-14T12:37:15.271138383Z"
     }
   ]
 }
