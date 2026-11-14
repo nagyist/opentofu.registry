@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.32.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-terrakube_0.32.1_darwin_amd64.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_darwin_amd64.zip",
+          "shasum": "274d4597ae33247630c2d05214c9c466f2e00555e66d2d8565d06c68750777bf",
+          "h1": "h1:PtOK0vory9d1XvC1KIPPqzEP3e9j0Sf3a/TaqvR1VWU=",
+          "size": 7450381
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-terrakube_0.32.1_darwin_arm64.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_darwin_arm64.zip",
+          "shasum": "bfac9c09bc6fdd88d940516b7b61cbcc43eb72ae1b1a10108d74f39c136d00a5",
+          "h1": "h1:eFGT6jmiDKkIZgGzYJRw3aJIZnEf53zHZ/eaQs4+grs=",
+          "size": 6897994
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-terrakube_0.32.1_freebsd_386.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_freebsd_386.zip",
+          "shasum": "10832dc1a55a489b2edb417306d45ee38a40532378696159217da8b023fde4d3",
+          "h1": "h1:Zd4MeHjFPB6z6K1Sc/M1+bjos3fBDbl8ZrDgwEB061Y=",
+          "size": 6819065
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-terrakube_0.32.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_freebsd_amd64.zip",
+          "shasum": "9d5c3316ff6fa093a21f5369fce2f14f01c6d171f1fa0a27158317ee05c8fa94",
+          "h1": "h1:4hVVZTv0SpAcejFFwsn/BdNRKK0cj5eA2jGWhluMqmY=",
+          "size": 7236705
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-terrakube_0.32.1_freebsd_arm.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_freebsd_arm.zip",
+          "shasum": "ddb20f6fb782e237649dcd9ef6a2db3c438ffd6df7b4632f1882341171e17931",
+          "h1": "h1:6GlU4EZtXsV7MYuxWT4iU+NF1RcMX3uE+g/v1kMARq0=",
+          "size": 6797488
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-terrakube_0.32.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_freebsd_arm64.zip",
+          "shasum": "98e8c7da8875f33429d6341c3145b4e4d6e900f19f0a4aee96be801db3a49db3",
+          "h1": "h1:zBGHkQDcnZ1q90w2sQutVwH3wP4EqVxFbs15jltwx/c=",
+          "size": 6532292
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-terrakube_0.32.1_linux_386.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_linux_386.zip",
+          "shasum": "0ef7629e8ebe3e46f00b77dab49e6b05fb0041f671cc3799786d31f7aaa5d564",
+          "h1": "h1:SWMKltXUMcEt2G9lngOePzDkD99C6NwdQBbEC2EeGdw=",
+          "size": 6849828
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-terrakube_0.32.1_linux_amd64.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_linux_amd64.zip",
+          "shasum": "33756983a07344739f07c784da650a66629fd418519c13967dcd8d01834ffa33",
+          "h1": "h1:RoNbA+rT4CmR8PKWtXjYoDlSV1uwrxL5c7wUyqLjwuc=",
+          "size": 7266415
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-terrakube_0.32.1_linux_arm.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_linux_arm.zip",
+          "shasum": "a860d2f751dc4d78420028f0df9c4e3c26ba87198acb4d7a92d59657af7d4c00",
+          "h1": "h1:FXLYIBScLV/mpMAvDclanFklfjX9GHloFu0Hi6QsY9k=",
+          "size": 6827593
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-terrakube_0.32.1_linux_arm64.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_linux_arm64.zip",
+          "shasum": "b8df01b6ed8a828b3e281902fc742665cbf96f01fe2b7a3e06c8154a8b8866de",
+          "h1": "h1:D2GA8Tb0mPYLVzbQUsXSjOS/NxcKLKVuakCBzzuAdJk=",
+          "size": 6563339
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-terrakube_0.32.1_windows_386.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_windows_386.zip",
+          "shasum": "f0fb4d5ce99fc149eec8686434f92759ace88e51b4ba898d954e07361fd60862",
+          "h1": "h1:uoaKLe4Qh1qaMkxMp8+3D8lDNDeBU16CoYBdyVNGOUE=",
+          "size": 7174076
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-terrakube_0.32.1_windows_amd64.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_windows_amd64.zip",
+          "shasum": "82f980357f802a1916b1862b575545773a4f4313b7d159424b87563fb9066926",
+          "h1": "h1:23EIG5aonDF/e/tX4jANyXdM64Bhc9jxYJBTq/99tB4=",
+          "size": 7473923
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-terrakube_0.32.1_windows_arm64.zip",
+          "download_url": "https://github.com/azbuilder/terraform-provider-terrakube/releases/download/v0.32.1/terraform-provider-terrakube_0.32.1_windows_arm64.zip",
+          "shasum": "96705a41bbea238cf29a29f3e80a9aa96feb818944dca069c08ebcb75029b4e6",
+          "h1": "h1:7LRMpgJ3SnVYggqIixRaVMVNGXrxLw2CKtObInPOWnQ=",
+          "size": 6646191
+        }
+      ],
+      "discovered": "2026-11-14T14:17:07.329901579Z"
+    },
+    {
       "version": "0.32.0",
       "protocols": [
         "6.0"
