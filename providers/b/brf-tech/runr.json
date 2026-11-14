@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.7.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-runr_0.7.1_darwin_amd64.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_darwin_amd64.zip",
+          "shasum": "f070dc54faff79c8ad4c46f385b17bf16bfee12aa1479d41eec3851d278da336",
+          "h1": "h1:FYavGNbL1j+FDl7vhf8ll7QuD5LCXxZKW04KFSK0X6E=",
+          "size": 8518845
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-runr_0.7.1_darwin_arm64.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_darwin_arm64.zip",
+          "shasum": "f453dee2073283adb5bc570700bca178a5478a5f7a73d154f98796a352761ee6",
+          "h1": "h1:sehq39ZUBrQK/ohkhs9A53TJfq0SkXJUq+YQ/fBUf9g=",
+          "size": 7891330
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-runr_0.7.1_freebsd_386.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_freebsd_386.zip",
+          "shasum": "a0f8aa851aba7308a7fea5da1cee16a6139312d7c4606e55221c7f894c296bb9",
+          "h1": "h1:2ZVdMcr+ByIQpDillYJy1z8M80moNBCuE/ZANMXnhTA=",
+          "size": 7774746
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-runr_0.7.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_freebsd_amd64.zip",
+          "shasum": "d5a0e8950708d726b503675345a9c7840f07554c75318456091081444ece60f4",
+          "h1": "h1:v2omheab+ng3RqK5TUdrQYbw9yv7XzKlG5makmP+sig=",
+          "size": 8254345
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-runr_0.7.1_freebsd_arm.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_freebsd_arm.zip",
+          "shasum": "4562cb05a5e08a306fef382c908b55b4a2d54e44255cd895e0fc9cbe4a6e71ca",
+          "h1": "h1:AM2Oc3j0BJrwdsLu4pvvcdMBGLIg8fil1ljqGxVjBjY=",
+          "size": 7795022
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-runr_0.7.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_freebsd_arm64.zip",
+          "shasum": "4d266827d569d9e1dd3ff0985862e418a3600062019634c4171d6c42e09f8cf8",
+          "h1": "h1:c3IOAHHLxM/kh0Hbzp5XcrRZW/T+L3OHODU3MeSG0Ak=",
+          "size": 7453618
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-runr_0.7.1_linux_386.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_linux_386.zip",
+          "shasum": "2a3a7de34f69b7aa40af91868e7e19006d3e3469753213f25977726170f819bc",
+          "h1": "h1:7wG29GiEnNFOYo1lVGBPbiXbSpHrzYj7reHeG307KFc=",
+          "size": 7815812
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-runr_0.7.1_linux_amd64.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_linux_amd64.zip",
+          "shasum": "4b57ed49af0a9a6fd597ad110f98718a0460f4ffed411c7d4bb213b2130cc4bb",
+          "h1": "h1:t6qrkiMeJZ5O55yFlgfDhEgAV4eXQgoudvZDNccF7QQ=",
+          "size": 8279847
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-runr_0.7.1_linux_arm.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_linux_arm.zip",
+          "shasum": "cfbcf5bd67e0cf58c14f2b6c2dadc56b2c1fb8a60102abc56ba158c9b70db8db",
+          "h1": "h1:YAv9TbefHMH6X3oxhnRz73C54jinKGAHEOw46M+gwGw=",
+          "size": 7825251
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-runr_0.7.1_linux_arm64.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_linux_arm64.zip",
+          "shasum": "3965447cfcb1d5085adc4c89242822e7471b7d7ea66c990d8f1026c138ca881f",
+          "h1": "h1:vefPruwZrGymNvJ05UL2Yl/L5bjlv1n1qTRwxx7G6v4=",
+          "size": 7475328
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-runr_0.7.1_windows_386.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_windows_386.zip",
+          "shasum": "ec8bd7a74728c5ec90cd8b653bac4cb8ab7275d9d673281abd72df3b3d73c9b8",
+          "h1": "h1:2qjA2YPZCIpdV8XiQhSxda0jrd/ysty+jWfnm49vR9k=",
+          "size": 8210789
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-runr_0.7.1_windows_amd64.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_windows_amd64.zip",
+          "shasum": "3826b0fef769df68eb404553b6334d63c9f3e81a6d3e728986187fd795df3235",
+          "h1": "h1:ZgnANu/rC9Q7QEWf62QgzV+e9io9ZioI3BAnrqYsaOY=",
+          "size": 8523428
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-runr_0.7.1_windows_arm64.zip",
+          "download_url": "https://github.com/brf-tech/terraform-provider-runr/releases/download/v0.7.1/terraform-provider-runr_0.7.1_windows_arm64.zip",
+          "shasum": "0b04366bcdada79f8cd1b905ee7172afa5582d26e41b346d5f936798727d8bcf",
+          "h1": "h1:dztruvrhnVmyIvn2M+u9pChF09Axs8OJoJUJLrl+iLc=",
+          "size": 7589752
+        }
+      ],
+      "discovered": "2026-11-14T13:22:25.221225122Z"
+    },
+    {
       "version": "0.7.0",
       "protocols": [
         "6.0"
