@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.16.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vapi_0.16.0_darwin_amd64.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_darwin_amd64.zip",
+          "shasum": "4540629e938c47b14cc37a642b7b5b81c13ed35f08daffac0a6f450a96d08504",
+          "h1": "h1:EyyL13QYr4N0J5oKvjhucpGwisNpdMizgnprUBkPH2Y=",
+          "size": 7161423
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vapi_0.16.0_darwin_arm64.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_darwin_arm64.zip",
+          "shasum": "f8471e28306e69c475c156209125662fb3bc9fc45651cbcdd9f73f7c795e05ab",
+          "h1": "h1:YL3kS/NAyRVOH7pvIc3CYM/MOhqQ3/4b5gRJjXl2jGo=",
+          "size": 6626919
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vapi_0.16.0_freebsd_386.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_freebsd_386.zip",
+          "shasum": "a22cee7fc73a82d3a565e0b04d0cc388eda64dc65206835a24b0d57ad421f92c",
+          "h1": "h1:FBkY22WGnRfqkqSogxx038+WsEv5KdfuClF7eJcTtEo=",
+          "size": 6588289
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vapi_0.16.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_freebsd_amd64.zip",
+          "shasum": "a9020b37c7b96c5052daa45adb47cd842eb1ebeb137fb0e944f0a2e87e567095",
+          "h1": "h1:4nqAqx67vN6EJDe5XotAlOdLi8zO6K6KFLcGgOrdaqc=",
+          "size": 6942141
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vapi_0.16.0_freebsd_arm.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_freebsd_arm.zip",
+          "shasum": "ddbffc27457d3eab7cdc554a166825257300fafd965458cc40c8361ea3858eb8",
+          "h1": "h1:6mBCpQpGshJSSqIJRhE2ZiYUQ+iivHhwcEgcf+7CExg=",
+          "size": 6554917
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vapi_0.16.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_freebsd_arm64.zip",
+          "shasum": "654145f113c8030cde9d2cf3996faa07858d0d3b41bd5fb466bac200b7c9be2c",
+          "h1": "h1:B2liKiSQr2nwCtZPRq8xHIUzV2rlkqGYbedD4XNGKb4=",
+          "size": 6269533
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vapi_0.16.0_linux_386.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_linux_386.zip",
+          "shasum": "004c440eaa02d45831fa8bec5357837313c4a463d2dfdf6a927843062213d020",
+          "h1": "h1:24qMY7rRTJp3iSqN04nqhz4ZwcAEk6VbND7gnfyMJFo=",
+          "size": 6624565
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vapi_0.16.0_linux_amd64.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_linux_amd64.zip",
+          "shasum": "517e7773f7031d07d649d03a12baee4e1936d74edc90e33217311758214c7cf0",
+          "h1": "h1:aCzoUp16+RinquKb4dlhWhWw2UpWq6t6MpPCbqLW1pk=",
+          "size": 6967314
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vapi_0.16.0_linux_arm.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_linux_arm.zip",
+          "shasum": "dfcba8a9bfd887b56b49c512fd696bc5a7c50ab7b22382a32a53722938a56fdf",
+          "h1": "h1:KUccpN+BQE8qf8gthm7N8FcRul4bLjXVAB2Q0FOPw1s=",
+          "size": 6576957
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vapi_0.16.0_linux_arm64.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_linux_arm64.zip",
+          "shasum": "88fb1c992c3bca7a143b01b53863c88ee4a1c73c6d9551f42cb9e4415f8996be",
+          "h1": "h1:OL9KOILMMcuvHVlaX941adish34GhrjfDZr4iwmYrhw=",
+          "size": 6295645
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vapi_0.16.0_windows_386.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_windows_386.zip",
+          "shasum": "53ba7eff71a473b48dd4c4e27bf8ffc34bd7ef33583e4c47d46c37176edbd5cc",
+          "h1": "h1:N9rnpR69QS6UpCVVlQdey1iqO69nP8qJBA0oLw0dWnQ=",
+          "size": 6949354
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vapi_0.16.0_windows_amd64.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_windows_amd64.zip",
+          "shasum": "ab24e83d70485cb31a7fe316821a0c3229fdf64d668b75539a6dd9f72cd965db",
+          "h1": "h1:+Ydz7jTwz7WaTZHia4733f0gXrzHSxpH0glMPMzK0Jw=",
+          "size": 7181026
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vapi_0.16.0_windows_arm64.zip",
+          "download_url": "https://github.com/kirillve/terraform-provider-vapi/releases/download/v0.16.0/terraform-provider-vapi_0.16.0_windows_arm64.zip",
+          "shasum": "4bf611d7998a0a50235e30e8a529a26c08f25bfc4538ca43cf1f8e20bc05d971",
+          "h1": "h1:gQrFP2pMuWS+PxhAaR5YfYd3KMp5jdMSELcp9SsPGzo=",
+          "size": 6390656
+        }
+      ],
+      "discovered": "2026-11-14T18:07:19.750889228Z"
+    },
+    {
       "version": "0.15.1",
       "protocols": [
         "6.0"
